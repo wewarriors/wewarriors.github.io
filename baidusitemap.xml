@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>https://wewarriors.github.io/2017/03/24/Android%E8%B0%83%E7%94%A8%E7%B3%BB%E7%BB%9F%E7%9B%B8%E6%9C%BA%E4%B8%8E%E7%9B%B8%E5%86%8C/</loc>
+    <lastmod>2017-03-24T03:08:01.026Z</lastmod>
+    <data>
+        <display>
+        <title>Android调用系统相机与相册</title>
+        <pubTime>2017-03-24T03:05:41.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android系统功能" url="https://wewarriors.github.io/categories/Android%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>https://wewarriors.github.io/2017/03/23/My-New-Post/</loc>
+    <lastmod>2017-03-23T12:26:55.317Z</lastmod>
+    <data>
+        <display>
+        <title>My New Post</title>
+        <pubTime>2017-03-23T12:25:27.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://wewarriors.github.io/2017/03/23/hello-world/</loc>
+    <lastmod>2017-03-23T09:20:57.098Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-03-23T09:20:57.098Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
