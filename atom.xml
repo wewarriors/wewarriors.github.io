@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wewarriors.github.io/"/>
-  <updated>2017-03-24T03:08:01.026Z</updated>
+  <updated>2017-03-24T08:26:01.948Z</updated>
   <id>https://wewarriors.github.io/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>use picture</title>
+    <link href="https://wewarriors.github.io/2017/03/24/use-picture/"/>
+    <id>https://wewarriors.github.io/2017/03/24/use-picture/</id>
+    <published>2017-03-24T08:21:28.000Z</published>
+    <updated>2017-03-24T08:26:01.948Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2017/03/24/use-picture/logo.jpg" alt="logo"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/2017/03/24/use-picture/logo.jpg&quot; alt=&quot;logo&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Android调用系统相机与相册</title>
