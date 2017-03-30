@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wewarriors.github.io/"/>
-  <updated>2017-03-24T08:26:01.948Z</updated>
+  <updated>2017-03-30T14:29:56.776Z</updated>
   <id>https://wewarriors.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>理解MeasureSpec</title>
+    <link href="https://wewarriors.github.io/2017/03/30/%E7%90%86%E8%A7%A3MeasureSpec/"/>
+    <id>https://wewarriors.github.io/2017/03/30/理解MeasureSpec/</id>
+    <published>2017-03-30T13:39:37.000Z</published>
+    <updated>2017-03-30T14:29:56.776Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="MearsureSpec"><a href="#MearsureSpec" class="headerlink" title="MearsureSpec"></a>MearsureSpec</h2><ol>
+<li><p>理解MeasureSpec</p>
+<p>MearsureSpec 在很大程度上决定了一个View的尺寸规格，之所以说很大程度上是因为这个过程还受到父容器的影响，因为父容器影响 View 的 MearsureSpec 的创建过程。在测量过程中，系统会将 View 的 LayoutParams 根据父容器所施加的规则转换成相应的 MearsureSpec，然后在根据这个mearsureSpec 来测量出 View 的宽/高。</p>
+<p>MearsureSpec 代表一个 32 位 int 值，高2位代表 SpecMode，低 30 位代表 SpecSize，SpecMode 是指测量模式，而 SpecSize 是指在某种测量模式下的规格大小。</p>
+<p>SpecMode 有三类：</p>
+<p>​    UNSPECIFIED 父容器不对 View 有任何限制，要多大有多大。</p>
+<p>​    EXACTLY 父容器已经检测出 View 所需要的精确大小，这个时候 View 的最终大小就是 SpecSize 所指定的值。它对应于 LayoutParams 中 match_parent 和具体的数值这两种模式。</p>
+<p>​    AT_MOST 指定了一个可用大小即 SpecSize, 对应于 LayoutParams 中的 wrap_content。  </p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;MearsureSpec&quot;&gt;&lt;a href=&quot;#MearsureSpec&quot; class=&quot;headerlink&quot; title=&quot;MearsureSpec&quot;&gt;&lt;/a&gt;MearsureSpec&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;理解MeasureSpec&lt;/p&gt;
+&lt;p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>use picture</title>
